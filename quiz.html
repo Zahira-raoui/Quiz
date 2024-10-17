@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>tp_quiz</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz">
+    <h1>Quiz</h1>
+    <p>Bienvenue sur notre quiz. Testez vos connaissances en répondant aux questions ci-dessous.</p>
+    <p>Prêt à commencer le quiz? Lancez le test maintenant!</p>
+    <button onclick="startQuiz()"  id="start-button">Start</button>
+    </div>
+
+<!-- Ajout d'une div pour afficher le temps restant -->
+
+<div id="timer"></div>
+<!-- Questions -->
+<div id="question-container">
+
+</div>
+
+<div class="button-container">
+    <button onclick="nextQuestion() " id="envoyer" style="display: none;">Envoyer</button>
+    <button onclick="stopQuiz()" id="stop" style="display: none;">Stop</button>
+
+</div>
+<script src="script.js"></script>
+    </body>
+    </html>
